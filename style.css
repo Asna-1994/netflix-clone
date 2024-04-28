@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',  sans-serif;
+    box-sizing: border-box;
+}
+.section1{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)) ,url("https://assets.nflxext.com/ffe/siteui/vlv3/c7f07b68-7989-4ff7-a31e-11c17dcc2fea/fcf685b8-3f9f-42d8-9af3-4bb86fa5a3b8/IN-en-20240422-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+background-size:120% ;
+background-position: center;
+max-width: 100%;
+height: 600px;
+
+}
+
+.logo{
+    width: 110px;
+}
+@media screen and (min-width:940px){
+    .logo{
+        width: 170px;
+    }
+
+
+}
+body{
+    background-color: #242222;
+    color: #fff;
+}
+
+.language{
+    outline: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+    background: transparent;
+}
+.language-option:hover{
+    background-color: rgb(19, 65, 151);
+    color: white;
+
+}
+
+
+
+.sigin-button{
+background-color: red;
+height: 35px;
+text-decoration: none;
+font-size: 14px;
+cursor: pointer;
+transition: background-color 0.3s ease
+
+}
+.sigin-button:hover{
+    background-color: rgb(196, 20, 20);
+   
+    
+    }
+.main-head{
+    font-weight: 800;
+    font-size:30px;
+    text-align: center;
+
+}
+.second-head{
+    font-size: 18px;
+    text-align: center;
+}
+.third-head{
+    font-size: 15px;
+    text-align: center;
+}
+.footermain-list{
+    grid-gap: 2rem;
+}
+@media screen and (min-width:768px){
+    .main-head{
+       
+        font-size:45px;
+       
+    
+    }
+    .second-head{
+        font-size: 24px;
+       
+    }
+    .third-head{
+        font-size: 19px;
+       
+    }
+.email{
+    width: 360px;
+}
+
+}
+
+.get-started{
+    background-color: red;
+    text-decoration: none;
+    font-size: 23px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+  
+    
+}
+.get-started:hover{
+    background-color: rgb(202, 17, 17);
+}
+.section2-head{
+    font-size: 30px;
+    font-weight: 750;
+}
+.section2-para{
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+.stranger-things-image{
+    width: 46px;
+}
+.qasection{
+    padding: 30px;
+}
+.plus{
+    font-size: 30px;
+}
+.watch{
+    font-size: 16px;
+}
+.footerlist{
+    grid-gap: 2px;
+}
+.answer{
+    background-color: rgb(49, 49, 49);
+    display: none;
+    transition: display 0.3s ease;
+
+}
+
+.display{
+    display: block;
+  
+}
+
+.section-download{
+    height: 600px;
+}
+@media screen and (min-width:950px) {
+    .section2-head{
+        font-size: 44px;
+       }
+       .section2-para{
+        font-size: 25px;
+     
+        
+    }
+    .stranger-things-image{
+        width: 62px;
+    }
+    .section{
+        padding: 100px;
+    }
+    .section-download{
+        padding: 100px;
+    }
+    .qasection{
+        padding: 120px;
+    }
+    .question{
+        font-size: 24px;
+    }
+    .answer{
+        font-size: 24px;
+    }
+    .plus{
+        font-size: 50px;
+    }
+    .watch{
+        font-size: 21px;
+    }
+    .footerlist{
+        grid-gap: 7rem;
+    }
+    .footerlist1{
+        margin-left: 7rem;
+    }
+    
+    
+}
+
+.container-first-image {
+    position: relative;
+    width: 100%;
+}
+
+.background-image {
+    width: 100%;
+    height: auto;
+}
+
+.first-video {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 69%;
+    max-height: 65%;
+   
+}
+.container-second-image {
+    position: relative;
+    width: 100%;
+}
+
+.background-image2 {
+    width: 100%;
+    height: auto;
+}
+
+.second-video {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 60%;
+    max-height: 60%;
+   
+}
+
+
+.downloading{
+    color: blue;
+    font-size: 14px;
+}
+
+.stranger{
+   width: 65%;
+    margin-top: -8rem;
+    background-color: black;
+    height:5rem;
+   
+}
+@media screen and (min-width:950px) {
+    .stranger{
+        height:6.5rem;
+        width: 50%;
+        
+     }
+}
+.question{
+background-color: rgb(49, 49, 49);
+transition: background-color 0.3s ease;
+cursor: pointer;
+}
+.question:hover{
+    background-color: rgb(66, 65, 65);
+}
+.footer-link {
+    font-size: 13px;
+    font-weight: 700;
+}
+.netflix-span{
+    font-weight: 550;
+    font-size: 15px;
+}

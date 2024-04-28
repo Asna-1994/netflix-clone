@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Netflix</title>
+  </head>
+  <body class="bg-dark">
+    <div class="section1">
+      <section class="container">
+        <header>
+          <div
+            class="d-flex flex-column flex-sm-row justify-content-center justify-content-md-between p-4"
+          >
+            <img class="logo" src="./images/netflix (2).png" />
+            <div class="d-flex gap-3">
+              <div
+                class="language border border-1 px-2 py-3 d-flex align-items-center gap-3">
+                <svg class="text-white" xmlns="http://www.w3.org/2000/svg"  fill="none"
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16" role="img" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z"
+                    fill="currentColor"></path>
+                </svg>
+                <select id="language-dropdown" class="border-0 bg-transparent text-white fw-semibold language-dropdown">
+                  <option selected class="text-black fw-normal language-option english ">
+                    English
+                  </option>
+                  <option class="text-black fw-normal language-option">
+                    हिंदी
+                  </option>
+                </select>
+              </div>
+              <a
+                class="fw-bold sigin-button rounded py-2 px-3 text-white d-flex align-items-center"
+                href="#"
+                >Signi In</a
+              >
+            </div>
+          </div>
+        </header>
+        <main>
+        <div class="d-flex justify-content-center align-items-center py-5">
+          <div class="text-white d-flex flex-column align-items-center">
+            <h1 class="main-head mt-4">Unlimited movies, TV shows and more</h1>
+            <span class="mt-3 fw-bold second-head"
+              >Watch anywhere. Cancel anytime.</span
+            >
+
+            <p class="mt-3 fw-semibold third-head">
+              Ready to watch? Enter your email or mobile number to create or
+              restart your membership.
+            </p>
+
+            <div class="d-flex flex-column flex-md-row gap-2">
+              <input
+                class="bg-transparent rounded p-2 text-white email"
+                type="text"
+                placeholder="Email or mobile number"
+              />
+              <a href="#" class="get-started px-3 py-2 rounded text-white"
+                >Get Started
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-caret-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/></svg ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="mt-2 bg-black section">
+      <div class="row container mx-auto d-flex  justify-content-center align-items-center flex-column flex-md-row   justify-content-center align-items-center">
+        <div class="col-12 col-lg-6 p-4 ">
+         
+            <h2 class="section2-head text-white text-center text-lg-start">Enjoy on your TV</h2>
+            <p class="text-white section2-para text-center text-lg-start">
+              Watch on smart TVs, PlayStationns, Xbox, Chromecast, Apple
+              TV,Blu-ray players and more.
+            </p>
+        </div>
+        <div class="col-12 col-lg-6 container-first-image ">
+          <img class="img-fluid background-image" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png">
+
+            <video autoplay loop class="first-video position-absolute object-fit-cover ">
+  <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4">
+</video>
+        </div>
+      </div>
+    </section>
+    <section class="mt-2 bg-black section-download">
+      <div class="row container mx-auto d-flex  flex-column flex-md-row  justify-content-center align-items-center">
+        <div class="col-12 col-lg-6 p-4 order-lg-2">
+         
+            <h2 class="section2-head text-white text-center text-lg-start"> Download your shows to watch offline</h2>
+            <p class="text-white section2-para text-center text-lg-start">
+        Save your favourites easily and always have something to watch
+            </p>
+        </div>
+        <div class="col-12 col-lg-6 order-lg-1  d-flex flex-column align-items-center">
+          <img class="img-fluid stranger-image" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg">
+<div class="stranger d-flex justify-content-center justify-content-between align-items-center gap-3 border rounded-3 p-2">
+  <img class="stranger-things-image" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png">
+  <div class="d-flex flex-column align-items-center ">
+    <span class="text-white fw-bold">Stranger Things</span>
+    <span class=" downloading">Downloading...</span>
+  </div>
+</div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-2 bg-black section">
+      <div class="row container mx-auto d-flex  flex-column flex-md-row  justify-content-center align-items-center">
+        <div class="col-12 col-lg-6 p-4">
+         
+            <h2 class="section2-head text-white text-center text-lg-start">Watch everywhere</h2>
+            <p class="text-white section2-para text-center text-lg-start">
+           Stream unlimited movies and tv shows on your phone,tablet,laptop and TV
+            </p>
+        </div>
+        <div class="col-12 col-lg-6 container-second-image">
+          <img class="img-fluid background-image2" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile-in.png">
+
+            <video autoplay loop class="second-video position-absolute object-fit-cover" width="350px;">
+  <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v">
+</video>
+ </div>
+      </div>
+    </section>
+    <section class="mt-2 bg-black section">
+      <div class="row container mx-auto d-flex  flex-column flex-md-row  justify-content-center align-items-center">
+        <div class="col-12 col-lg-6 p-4 order-lg-2">
+         
+            <h2 class="section2-head text-white text-center text-lg-start">Create profile for kids</h2>
+            <p class="text-white section2-para text-center text-lg-start">
+          Send children on adventures with their favourite characters in a space made just for them-free with your membership
+            </p>
+        </div>
+        <div class="col-12 col-lg-6 order-lg-1">
+          <img class="img-fluid" src="https://occ-0-6058-3663.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVr8nYuAg0xDpXDv0VI9HUoH7r2aGp4TKRCsKNQrMwxzTtr-NlwOHeS8bCI2oeZddmu3nMYr3j9MjYhHyjBASb1FaOGYZNYvPBCL.png?r=54d">
+
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-2 bg-black  qasection ">
+      <div class="container mx-auto">
+
+     
+      <h2 class="section2-head text-white text-center ">Frequently Asked Questions</h2>
+     <ul class="list-unstyled mt-4 text-white">
+      <div id="question-1" class=" d-flex justify-content-between align-items-center question px-4 py-1  mt-2">
+        <li class="fw-medium ">What is Netflix?</li><span class="plus">+</span>
+      </div>
+     <p id="answer1" class="answer mt-1 p-4">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.
+       <br>
+       <br>
+        You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week!</p>
+      <div id="question-2" class=" d-flex justify-content-between align-items-center question px-4  py-1 mt-2">
+        <li class="fw-medium  ">How much does Netflix cost?</li><span class="plus">+</span>
+      </div>
+      <p id="answer2" class="answer mt-1 p-4">Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.</p>
+     
+     <div id="question-3" class="d-flex justify-content-between align-items-center question px-4 py-1 mt-2 ">
+      <li class=" fw-medium  ">Where can i watch?</li><span class="plus">+</span>
+     </div>
+     <p id="answer3" class="answer mt-1 p-4">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+<br>
+<br>
+      You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.
+    <div id="question-4" class=" d-flex justify-content-between align-items-center question px-4  py-1  mt-2">
+      <li class=" fw-medium  ">How do i cancel?</li><span class="plus">+</span>
+    </div>
+    <p id="answer4" class="answer mt-1 p-4">
+    Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.
+    </p>
+    <div id="question-5" class=" d-flex justify-content-between align-items-center question px-4  py-1  mt-2">
+      <li class=" fw-medium  ">What can i watch on Netflix?</li><span class="plus">+</span>
+    </div>
+    <p id="answer5" class="answer mt-1 p-4">
+      Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+    </p>
+    <div id="question-6" class=" d-flex justify-content-between align-items-center question px-4  py-1  mt-2">
+      <li class=" fw-medium  ">Is Netflix good for kids?</li><span class="plus">+</span>
+    </div>
+    <p id="answer6" class="answer mt-1 p-4">
+      The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.
+<br>
+<br>
+      Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+    </p>
+    </ul>
+     <div class="d-flex flex-column justify-content-center align-items-center mt-5 gap-4" >
+      <span class="text-white fw-medium watch">Ready to watch? Enter your email or mobile number to create or restart your membership.</span>
+      <div class="d-flex flex-column flex-md-row gap-2">
+       <input
+         class="bg-transparent rounded p-2 text-white email"
+         type="text"
+         placeholder="Email or mobile number"
+       />
+       <a href="#" class="get-started px-3 py-2 rounded text-white"
+         >Get Started
+         <svg
+           xmlns="http://www.w3.org/2000/svg"
+           width="16"
+           height="16"
+           fill="currentColor"
+           class="bi bi-caret-right"
+           viewBox="0 0 16 16"
+         >
+           <path
+             d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753"/></svg ></a>
+     </div>
+     </div>
+    </div>
+    </section>
+  </main>
+    <footer class="mt-2 bg-black py-4 px-1" >
+      <div class="container ">
+        <span class="text-secondary">
+          Questions? Call 000-800-919-1694
+        </span>
+        <div class="d-flex px-2 py-3  footermain-list" >
+          <div class="d-flex flex-column flex-md-row footerlist">
+            <ul class="list-unstyled ">
+              <li class="mt-2"><a class="footer-link text-secondary" href="#">FAQ</a></li>
+              <li  class="mt-2"><a class="footer-link text-secondary" href="#">Account</a></li>
+              <li  class="mt-2"><a class="footer-link text-secondary" href="#">Investor Relation</a></li>
+              <li  class="mt-2"><a class="footer-link text-secondary" href="#">Ways to Watch</a></li>
+            </ul>
+
+            <ul class="list-unstyled"> 
+              <li  class="mt-2"><a class="footer-link text-secondary" href="#">Privacy</a></li>
+              <li  class="mt-2"><a class="footer-link text-secondary" href="#">Corporate Information</a></li>
+              <li  class="mt-2"><a class="footer-link text-secondary" href="#">Speed Test</a></li>
+              <li  class="mt-2"><a class="footer-link text-secondary" href="#">Only on Netflix</a></li>
+  
+            </ul>
+            </div>
+          <div class="d-flex flex-column flex-md-row footerlist footerlist1" >
+            <ul class="list-unstyled">
+              <li  class="mt-2"><a class="footer-link text-secondary" href="#">Help Center</a></li>
+              <li  class="mt-2"><a class="footer-link text-secondary" href="#">Media Center</a></li>
+              <li  class="mt-2"><a class="footer-link text-secondary" href="#">Jobs</a></li>
+              <li  class="mt-2"><a class="footer-link text-secondary" href="#">Terms Of Use</a></li>
+            </ul>
+
+             <ul class="list-unstyled">
+              <li  class="\"><a class="footer-link text-secondary" href="#">Cookie Preference</a></li>
+              <li  class="mt-2"><a class="footer-link text-secondary" href="#">Contact Us</a></li>
+              <li class="mt-2"><a class="footer-link text-secondary" href="#">Legal Notices</a></li>
+              </ul>
+    </div>
+   </div>
+     
+   <div class="px-2">
+    <div
+    class="language border border-1 px-2 py-3 d-flex  align-items-center gap-3 mb-3"
+  >
+    <svg
+      class="text-white "
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      width="20"
+      height="20"
+      viewBox="0 0 16 16"
+      role="img"
+      aria-hidden="true"
+    >
+      <path
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z"
+        fill="currentColor"
+      ></path>
+    </svg>
+    <select
+      class="border-0 bg-transparent text-white fw-semibold language-dropdown"
+    >
+      <option class="text-black fw-normal language-option">
+        English
+      </option>
+      <option class="text-black fw-normal language-option">
+        हिंदी
+      </option>
+    </select>
+        </div>
+        <div>
+          <span class=" text-secondary  netflix-span">Netflix India</span>
+
+        </div>
+       
+
+   </div>
+  </div>
+
+  
+
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
